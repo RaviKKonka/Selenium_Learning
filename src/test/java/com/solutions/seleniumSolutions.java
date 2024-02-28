@@ -42,7 +42,7 @@ public class seleniumSolutions {
 	ChromeOptions options;
 
 	@Test
-	public void TestGoogle() throws Exception {
+	public void headLess() throws Exception {
 		options = new ChromeOptions();
 		options.addArguments("--headless");
 		driver = new ChromeDriver(options);
