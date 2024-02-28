@@ -25,6 +25,7 @@ public class AllNewSamples {
 	
 	@Test
 	void reverseString() {
+		String str = "Testing";
 		
 	}
 	
